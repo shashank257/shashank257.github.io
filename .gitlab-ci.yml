@@ -1,5 +1,7 @@
 pages:
   stage: deploy
+  tags:
+  - 257, 257s
   script:
   - echo 'Nothing to do...'
   artifacts:
