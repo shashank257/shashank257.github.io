@@ -3,7 +3,9 @@ pages:
   tags:
   - 257, 257s, shashank257
   script:
-  - echo 'Nothing to do...'
+  - mkdir .public
+  - cp -r * .public
+  - mv .public public
   artifacts:
     paths:
     - public
