@@ -1,8 +1,9 @@
 * {
     text-align: center;
+    margin-bottom: var(--mb-4);
     font-family: 'monospace';
     background-color: #000000;
-    color: #fff
+    color: #fff;
 }
 a {
     text-decoration: none;
