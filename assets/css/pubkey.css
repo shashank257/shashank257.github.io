@@ -1,8 +1,7 @@
 body {
     text-align: center;
-    margin-bottom: var(--mb-4);
+    margin-block: var(--mb-4);
     font-family: 'monospace';
     background-color: #000000;
     color: #fff;
-    max-width: 30rem;
 }
