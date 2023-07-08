@@ -1,7 +1,5 @@
 pages:
   stage: deploy
-  tags:
-  - 257, 257s, shashank257
   script:
   - mkdir .public
   - cp -r * .public
