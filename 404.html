@@ -1,9 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; url='https://shashank257.gitlab.io'" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 // 257</title>
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        background: #f5f7fb;
+        color: #12151d;
+        font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+        line-height: 1.6;
+        position: relative;
+        overflow: hidden;
+      }
+      .glow {
+        position: fixed; inset: 0; z-index: -1; pointer-events: none;
+        background: radial-gradient(circle at 50% 40%, rgba(13, 148, 136, 0.16), transparent 55%);
+      }
+      h1 {
+        font-size: clamp(4rem, 20vw, 9rem);
+        line-height: 1;
+        background: linear-gradient(120deg, #12151d, #0d9488 60%, #6d5efc);
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+      }
+      p { color: #48505f; margin-top: 1rem; max-width: 520px; }
+      a { color: #0d9488; text-decoration: none; border-bottom: 1px dotted #0d9488; }
+      a:hover { border-bottom-style: solid; }
+    </style>
+    <meta http-equiv="refresh" content="6; url='https://shashank257.gitlab.io'" />
   </head>
   <body>
-    <p>Please follow <a href="https://shashank257.gitlab.io">this link</a> or visit <ah="https://257s.gitlab.io">my new site</a>.</p>
+    <div class="glow" aria-hidden="true"></div>
+    <h1>404</h1>
+    <p>This page slipped through the void.</p>
+    <p>
+      Follow <a href="https://shashank257.gitlab.io">this link</a> back home,
+      or visit <a href="https://257s.gitlab.io">my new site</a>.
+      Redirecting shortly&hellip;
+    </p>
   </body>
 </html>
