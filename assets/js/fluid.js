@@ -1453,23 +1453,24 @@ window.addEventListener('mouseleave', () => {
 });
 
 window.addEventListener('touchstart', e => {
-    const touches = e.targetTouches;
+    const touches = e.touches;
     while (touches.length >= pointers.length)
         pointers.push(new pointerPrototype());
     for (let i = 0; i < touches.length; i++) {
-        let posX = scaleByPixelRatio(touches[i].pageX);
-        let posY = scaleByPixelRatio(touches[i].pageY);
+        // clientX/Y (viewport coords) — the canvas is position:fixed, so these must NOT include scroll offset
+        let posX = scaleByPixelRatio(touches[i].clientX);
+        let posY = scaleByPixelRatio(touches[i].clientY);
         updatePointerDownData(pointers[i + 1], touches[i].identifier, posX, posY);
     }
 });
 
 window.addEventListener('touchmove', e => {
-    const touches = e.targetTouches;
+    const touches = e.touches;
     for (let i = 0; i < touches.length; i++) {
         let pointer = pointers[i + 1];
         if (!pointer.down) continue;
-        let posX = scaleByPixelRatio(touches[i].pageX);
-        let posY = scaleByPixelRatio(touches[i].pageY);
+        let posX = scaleByPixelRatio(touches[i].clientX);
+        let posY = scaleByPixelRatio(touches[i].clientY);
         updatePointerMoveData(pointer, posX, posY);
     }
 }, false);
