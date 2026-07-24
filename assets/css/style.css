@@ -287,6 +287,8 @@ section { margin-top: clamp(3rem, 7vw, 4.5rem); }
 .muted { color: var(--muted); font-size: 0.94rem; }
 .muted strong, .card strong { color: var(--text); }
 .meta-line { color: var(--dim); font-size: 0.8rem; margin-top: 0.4rem; }
+/* smaller school/college line under the parent university */
+.sub-inst { font-size: 0.86rem; color: var(--muted); margin: 0.1rem 0 0.4rem; }
 
 .pill {
     font-size: 0.72rem;
