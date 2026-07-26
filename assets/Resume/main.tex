@@ -1,0 +1,276 @@
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{graphicx}  
+\usepackage{hyperref}  
+\usepackage{tikz}
+\usepackage[margin=0.5in,headheight=0pt,headsep=0pt,footskip=0pt]{geometry}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins handled by geometry (see preamble): equal on all four sides
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2
+      \small#3 & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeExpHeading}[3]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} —  \textbf{#2} & \small #3 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \footnotesize#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.05in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, rightmargin=-0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\LARGE \scshape SHASHANK REDDYHALLI RAKESH} \\ \vspace{2pt}
+    \small +1 (619) 953-7436 $|$ \href{mailto:sreddyhallirakesh@ucsd.edu}{\underline{sreddyhallirakesh@ucsd.edu}} $|$
+    \href{https://www.linkedin.com/in/shashankrr}{\underline{LinkedIn}} 
+    $|$
+    \href{https://github.com/shashank257}{\underline{GitHub}}
+    $|$
+    \href{https://shashankrr.com}{\underline{shashankrr.com}}
+       % QR code hidden for now
+       % \begin{tikzpicture}[remember picture,overlay]
+       % \node[anchor=north east, yshift=-10pt, xshift=-20pt]
+       %     at (current page.north east)
+       %     {\href{https://www.linkedin.com/in/shashankrr}{\includegraphics[width=2.6cm]{resume-qr.png}}};
+       % \end{tikzpicture}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{University of California San Diego}}{2025 -- Present\\}
+      {Master of Science in \textbf{Data Science} \ \ \textbf{ }}{}
+    \resumeSubheading
+      {\textbf{Visvesvaraya Technological University}}{2021 -- 2025\\}
+      {Bachelor of Engineering in \textbf{Computer Science} and Engineering \ \ \textbf{ }}{}
+    %\resumeSubheading
+    %  {{Certifications}: {\href{https://drive.google.com/file/d/1DZM34GGNThagkRlQf5H61YQbxlrS8yUi/view?usp=drive_link}{\underline{Data Science for Engineers}}} (NPTEL), {\href{https://drive.google.com/file/d/1CEkAYPxQ_XFq0iL3IR-7vZeY4677KVJa/view?usp=drive_link}{\underline{Python Course}}} (Google -Coursera), {\href{https://drive.google.com/file/d/1HjcgxQF2JOF_TPVZ7rZ4yRgcW2NTqbng/view?usp=drive_link}{\underline{AI/Machine Learning}}}}{\\}
+    %  {Basics (\_VOIS), {\href{https://drive.google.com/file/d/1UXnVFUUSW-eHyL6h2VPqOTOuzRnpxpc3/view?usp=drive_link}{\underline{Cyber Security}}} (IBM), {\href{https://drive.google.com/file/d/1UXnVFUUSW-eHyL6h2VPqOTOuzRnpxpc3/view?usp=drive_link}{\underline{Ethical Hacking}}} (zSecurity -Udemy)}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE----------- 
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    %\resumeSubheading
+    %  {Data Scientist Intern}{Feb 2025 -- Jun 2025}
+    %  {Conneqt Digital}{}
+    %  \resumeItemListStart
+    %    \resumeItem{Spearheaded end-to-end data processing including cleaning, EDA, \& feature engineering on large business datasets}
+    %    \resumeItem{Designed and deployed predictive models and time-series forecasting solutions tailored to business objectives}
+    %    \resumeItem{Worked among multiple teams to visualize, interpret \& optimize model outputs for data-driven decision-making}
+    %  \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeExpHeading
+      {\href{https://ucsd.edu}{\underline{UC San Diego}}}{GFH Clerical Assistant}{Mar 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{Beyond administrative support, \textbf{automate} manual workflows into internal tools that save staff hours.}
+      \resumeItemListEnd
+
+    \resumeExpHeading
+      {\href{https://www.digitide.com/}{\underline{Digitide}}}{Data Scientist Intern}{Feb 2025 -- Jun 2025}
+      \resumeItemListStart
+        \resumeItem{Powered business decisions by building \textbf{end-to-end ML pipelines} (EDA, features, \textbf{NLP}) over \textbf{100k+ records}.}
+        \resumeItem{Reached a \textbf{0.98 F1 score} in production by shipping tuned \textbf{predictive \& time-series} forecasting models.}
+      \resumeItemListEnd
+
+    \resumeExpHeading
+      {\href{https://krishik-abiuasd.org/}{\underline{UAS Dharwad}}}{Product Manager, AgriTech}{Mar 2025 -- Aug 2025}
+      \resumeItemListStart
+        \resumeItem{Owned product strategy \& built a university-backed \textbf{AgriTech marketplace} for startups to onboard \& sell.}
+      \resumeItemListEnd
+
+    \resumeExpHeading
+      {\href{https://www.blueed.com/}{\underline{Blueed}}}{Research \& Development Intern}{Jul 2024 -- Nov 2024}
+      \resumeItemListStart
+        \resumeItem{Powered product decisions for \textbf{2,000+ active users} by building WaitKyu's \textbf{data \& analytics backbone}.}
+        \resumeItem{Lifted UX by shipping \textbf{ML-powered insights} and rigorously tested, reliable features.}
+      \resumeItemListEnd
+
+    \resumeExpHeading
+      {\href{https://in.linkedin.com/company/info-bharat-interns}{\underline{Bharat Intern}}}{Data Science \& ML Intern}{Jan 2024 -- Mar 2024}
+      \resumeItemListStart
+        \resumeItem{Developed \textbf{predictive ML models} for survival analysis \& classification, reaching $\sim$\textbf{92\%} accuracy.}
+        \resumeItem{Lifted model performance through rigorous feature engineering, EDA \& pipeline optimization.}
+      \resumeItemListEnd
+      \textbf{{\href{https://www.voiscentre.com/}{\underline{VOIS}}} — \small{AIML Intern}} Oct-Nov'23 \ \ \ \ \ \ \ $||$ \ \textbf{{\href{https://www.voiscentre.com/}{\underline{EdVedha}}} — \small{Full Stack Web Developer Intern}} Nov'23-May'24\\
+      \textbf{{\href{https://www.voiscentre.com/}{\underline{IBM}}} -\small{Cyber Security Intern}} Oct-Nov'23 $||$ \textbf{{\href{https://www.voiscentre.com/}{\underline{UniConverge Technologies}}}-\small{SDE Intern \& Mentor}} May-Aug'23\\
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects \& Publications Experience}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AudioVeritas} -- {Deepfake Audio Detection System}}{\href{https://doi.org/10.22214/ijraset.2025.66025}{\underline{IJRASET66025}}}
+          \resumeItemListStart
+            \resumeItem{Engineered an \textbf{SVM} deepfake-audio detector on MFCC/spectral features, \textbf{95.7\%} accuracy.}
+            \resumeItem{\textbf{Published} and \textbf{secured funding} to advance the work in media forensics \& cybersecurity.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Deep Learning Approach for Early Colorectal Cancer Detection using Speech Biomarkers} \emph{}}{\href{https://doi.org/10.22214/ijraset.2024.63556}{\underline{IJRASET63556}}}
+          \resumeItemListStart
+            \resumeItem{Built a \textbf{CNN} for early colorectal cancer detection from \textbf{vocal biomarkers} (non-invasive, low-cost).}
+            \resumeItem{Optimized model performance for reliable recognition in real-world applications.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Hierarchical Deep Learning for Robust Intrusion Detection in Evolving Security Landscape}  \emph{} }{\href{https://doi.org/10.22214/ijraset.2024.58300}{\underline{IJRASET58300}}}
+          \resumeItemListStart
+            \resumeItem{Designed a hybrid \textbf{DL+ML} intrusion-detection system with an \textbf{adversarial-example detector}.}
+            \resumeItem{Achieved accuracy gains under adversarial conditions with optimized use of compute.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Security Issues and Defensive Approaches in Deep Learning Frameworks} \emph{}}{\href{https://doi.org/10.22214/ijraset.2023.57752}{\underline{IJRASET57752}}}
+          \resumeItemListStart
+            \resumeItem{Mapped attacks to defenses across deep-learning frameworks in a practical threat-model taxonomy.}
+            \resumeItem{Delivered a blueprint for \textbf{trustworthy, secure AI} in production deployments.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Certifying Text Classifiers vs Levenshtein Attacks} -- Reproducing LipsLev (ICLR 2025)}{\href{https://medium.com/trustworthy-machine-learning/certifying-text-classifiers-against-levenshtein-attacks-reproducing-lipslev-iclr-2025-34aa564b93fc}{\underline{Medium}}}
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PUBLICATIONS-----------
+%\section{Publications}
+% \begin{itemize}[leftmargin=0.05in, label={}]
+%    \small{\item{
+%     \textbf{AudioVeritas: A Machine Learning Model to Detect Deepfake Audio}\hfill{ \href{https://doi.org/10.22214/ijraset.2025.66025}{\underline{IJRASET66025}}} \\
+%     \textbf{Deep Learning Approach for Early Colorectal Cancer Detection using Speech Biomarkers}\hfill{ \href{https://doi.org/10.22214/ijraset.2024.63556}{\underline{IJRASET63556}}} \\
+%     \textbf{Hierarchical Deep Learning for Robust Intrusion Detection in Evolving Security Landscapes}\hfill{    \href{https://doi.org/10.22214/ijraset.2024.58300}{\underline{IJRASET58300}}} \\
+%     \textbf{Security Issues and Defensive Approaches in Deep Learning Frameworks}\hfill{ \href{https://doi.org/10.22214/ijraset.2023.57752}{\underline{IJRASET57752}}}
+%    }}
+ %\end{itemize}
+
+ %-----------Entreprenuerial EXPERIENCES AND RESPONSIBILITIES-----------
+\section{Community Leadership \& Entrepreneurship {\normalfont\small (reaching 100,000+ globally)}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{\href{https://techforge.jnnce.ac.in/}{\underline{TechForge Club}}} - Founder \& President{ Oct'23-Jul'25}
+     \hfill \textbf{\href{https://cybernity.org/}{\underline{Cybernity}}} - Co-Founder, intl.{ May'20-May'25}\\
+     \textbf{\href{https://parrotsec.org/}{\underline{ParrotSec (HTB)}}} - India Lead \& Global Moderator{ Mar'20-Jun'25}
+     \hfill \textbf{\href{https://fossunited.org/}{\underline{FOSS United}}} - Chapter Lead{ Sep'23-Aug'25}
+     }}
+ \end{itemize}
+
+ 
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills \& Achievements}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textbf{Technical Skills}{: Python, SQL, R, C++, Java, JavaScript; PyTorch, TensorFlow, Scikit-learn, XGBoost, Transformers, NLP; LLMs, RAG, Hugging Face, LangChain, LoRA/PEFT; AWS, Docker, Git, MongoDB} \\
+     \textbf{Awards}{: \textbf{1st place \& 6th globally}, SmashHack ML Hackathon (UC San Diego \& NSF HDR); {\href{https://www.linkedin.com/posts/shashankrr_its-an-honor-to-have-received-the-%F0%9D%90%8E%F0%9D%90%AE%F0%9D%90%AD-activity-7333911135571648512-0hvl}{\underline{\textit{Outstanding Achievement \& Contribution Award}}}} (JNNCE); {\href{https://www.linkedin.com/posts/shashankrr_im-incredibly-excited-to-announce-that-our-activity-7234227197241081856-bHR9}{\underline{\textit{Runner-up, Hack for Hire}}}} (Anvesana TBI)} \\
+     \textbf{Certifications}{: {\href{https://drive.google.com/file/d/1DZM34GGNThagkRlQf5H61YQbxlrS8yUi/view?usp=drive_link}{\underline{Data Science for Engineers}}} (NPTEL), {\href{https://drive.google.com/file/d/1CEkAYPxQ_XFq0iL3IR-7vZeY4677KVJa/view?usp=drive_link}{\underline{Python Course}}} (Google - Coursera), {\href{https://drive.google.com/file/d/1UXnVFUUSW-eHyL6h2VPqOTOuzRnpxpc3/view?usp=drive_link}{\underline{Ethical Hacking}}} (zSecurity)}
+     }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
