@@ -46,6 +46,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
+\newlength{\aeleft}  % fixed width for the left column of the compact "additional experience" rows so the || pipes align
 
 % Sections formatting
 \titleformat{\section}{
@@ -130,7 +131,7 @@
 \end{center}
 \vspace{-9pt}
 \begin{center}
-{\small \textbf{AI/ML Engineer}, published researcher, and \textbf{0$\to$1 founder} with \textbf{5+ yrs in tech}, turning \textbf{research into production ML} (0.98 F1), leading communities \textbf{100,000+ strong}. \textbf{1st place \& 6th worldwide}, SmashHack.}
+{\small \textbf{AI/ML Engineer}, published researcher, and \textbf{0$\to$1 founder} with \textbf{5+ yrs in tech}, turning \textbf{research into production ML}, leading communities \textbf{100,000+ strong}. \textbf{1st place \& 6th worldwide}, SmashHack.}
 \end{center}
 \vspace{-13pt}
 
@@ -150,7 +151,7 @@
 
 
 %-----------EXPERIENCE----------- 
-\section{Professional Experience}
+\section{Professional Experience {\normalfont\small (3+ years)}}
   \resumeSubHeadingListStart
 
     %\resumeSubheading
@@ -204,8 +205,9 @@
         \resumeItem{Developed \textbf{predictive ML models} for survival analysis \& classification, reaching $\sim$\textbf{92\%} accuracy.}
         \resumeItem{Lifted model performance through rigorous feature engineering, EDA \& pipeline optimization.}
       \resumeItemListEnd
-      \textbf{{\href{https://www.voiscentre.com/}{\underline{VOIS}}} — \small{AI/ML Intern}} Oct-Nov'23 \ \ \ \ \ \ \ $||$ \ \textbf{EdVedha — \small{Full Stack Web Developer Intern}} Nov'23-May'24\\
-      \textbf{{\href{https://www.ibm.com}{\underline{IBM}}} -\small{Cyber Security Intern}} Oct-Nov'23 $||$ \textbf{{\href{https://www.linkedin.com/company/uniconvergetechnologies}{\underline{UniConverge Technologies}}}-\small{SDE Intern \& Mentor}} May-Aug'23\\
+      \settowidth{\aeleft}{\textbf{{\underline{IBM}} -\small{Cyber Security Intern}} Oct-Nov'23\ }%
+      \makebox[\aeleft][l]{\textbf{{\href{https://www.voiscentre.com/}{\underline{VOIS}}} — \small{AI/ML Intern}} Oct-Nov'23}$||$\ \textbf{EdVedha — \small{Full Stack Web Developer Intern}} Nov'23-May'24\\
+      \makebox[\aeleft][l]{\textbf{{\href{https://www.ibm.com}{\underline{IBM}}} -\small{Cyber Security Intern}} Oct-Nov'23}$||$\ \textbf{{\href{https://www.linkedin.com/company/uniconvergetechnologies}{\underline{UniConverge Technologies}}}-\small{SDE Intern \& Mentor}} May-Aug'23\\
 
   \resumeSubHeadingListEnd
 
