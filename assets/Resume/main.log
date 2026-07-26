@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.7.25)  26 JUL 2026 08:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.7.25)  26 JUL 2026 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -567,19 +567,25 @@ L3 programming layer <2025-11-14>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 92BE9450235ECDCC24A561C4F6DC497B;1041.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 92BE9450235ECDCC24A561C4F6DC497B;1041
+(rerunfilecheck)             After:  4C1E707FC8A8C8516B0E4DCF6F9CBCF2;983.
  ) 
 Here is how much of TeX's memory you used:
  21764 strings out of 469476
  406398 string characters out of 5468032
- 845668 words of memory out of 5000000
+ 845669 words of memory out of 5000000
  50069 multiletter control sequences out of 15000+600000
  634629 words of font info for 67 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  84i,11n,104p,706b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/257s/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 123103 bytes).
+Output written on main.pdf (1 page, 123090 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  86 compressed objects within 1 object stream
